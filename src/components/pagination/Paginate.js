@@ -23,6 +23,7 @@ export default function Paginate(props) {
 
   useEffect(() => {
     setTotalPages(Math.ceil(props.totalPages));
+    setCurrentPage(1);
   }, [props.totalPages]);
 
   return (

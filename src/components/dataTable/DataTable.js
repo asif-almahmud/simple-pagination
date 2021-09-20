@@ -19,6 +19,7 @@ const DataTable = () => {
 
   useEffect(() => {
     setTotalPages(noOfRows / rowsPerPage);
+    setCurrentPage(1);
   }, [rowsPerPage]);
 
   return (
@@ -57,12 +58,12 @@ const DataTable = () => {
 
       {rowsPerPage && (
         <Paginate
-          totalPages={totalPages} // this property is required
-          setCurrentPage={setCurrentPage} // this property is required
-          arrowColor={"#1d4572"} // optional property
-          borderColor={"#1d4572"} // optional property
-          backgroundColor={"#1d4572"} // optional property
-          digitColor={"white"} // optional property
+          totalPages={totalPages}
+          setCurrentPage={setCurrentPage}
+          arrowColor={"#21385b"}
+          borderColor={"#21385b"}
+          backgroundColor={"#21385b"}
+          digitColor={"white"}
         />
       )}
     </div>
