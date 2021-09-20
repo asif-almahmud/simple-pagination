@@ -1,0 +1,296 @@
+/* Arrow Style */
+.arrow {
+  border: solid #303030;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.arrowDouble {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  position: relative;
+}
+
+.arrowDouble::after {
+  content: "";
+  border: solid;
+  border-color: inherit;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  position: absolute;
+  inset: 0px;
+  left: 6px;
+  top: 6px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/*  */
+.paginationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 40px; */
+}
+.firstPageActive,
+.lastPageActive {
+  margin: 8px;
+  text-align: center;
+  color: #464646;
+  font-weight: 400;
+  transition: all 0.2s linear;
+}
+.firstPageInactive,
+.lastPageInactive {
+  margin: 8px;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.firstPageInactive:hover,
+.lastPageInactive:hover {
+  color: var(--color-blue-violet);
+  font-weight: 700;
+}
+/* ------------------------------ Page No ---------------------------- */
+.pageNoActive {
+  margin: 4px;
+  padding: 0px 6px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4e4e4e;
+  font-weight: 600;
+  border: 1px solid #313131;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+}
+
+.pageNoInactive {
+  margin: 4px;
+  padding: 0px 6px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+}
+
+.pageNoInactive:hover {
+  color: white;
+  background-color: #000000;
+}
+
+/* ---------- For Small Devices ----------- */
+@media only screen and (max-width: 520px) {
+  /* Arrow Style */
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .arrowDouble {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+  }
+
+  .arrowDouble::after {
+    content: "";
+    border: solid;
+    border-color: inherit;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    inset: 0px;
+    left: 4px;
+    top: 4px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  /*  */
+  .paginationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+  }
+  .firstPageActive,
+  .lastPageActive {
+    margin: 6px;
+    text-align: center;
+    color: #464646;
+    font-weight: 400;
+    transition: all 0.2s linear;
+  }
+  .firstPageInactive,
+  .lastPageInactive {
+    margin: 6px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+
+  .firstPageInactive:hover,
+  .lastPageInactive:hover {
+    color: var(--color-blue-violet);
+    font-weight: 700;
+  }
+  /* ------------------------------ Page No ---------------------------- */
+  .pageNoActive {
+    margin: 3px;
+    padding: 0px 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4e4e4e;
+    font-weight: 600;
+    border: 1px solid #313131;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+  }
+
+  .pageNoInactive {
+    margin: 3px;
+    padding: 0px 5px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+  }
+
+  .pageNoInactive:hover {
+    color: white;
+    background-color: #000000;
+  }
+}
+
+/* ---------- For Extra Small Devices ----------- */
+@media only screen and (max-width: 400px) {
+  /* Arrow Style */
+  .arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .arrowDouble {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+  }
+
+  .arrowDouble::after {
+    content: "";
+    border: solid;
+    border-color: inherit;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    inset: 0px;
+    left: 4px;
+    top: 4px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  /*  */
+  .paginationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+  }
+  .firstPageActive,
+  .lastPageActive {
+    margin: 5px;
+    text-align: center;
+    color: #464646;
+    font-weight: 300;
+    transition: all 0.2s linear;
+  }
+  .firstPageInactive,
+  .lastPageInactive {
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+
+  .firstPageInactive:hover,
+  .lastPageInactive:hover {
+    color: var(--color-blue-violet);
+    font-weight: 600;
+  }
+  /* ------------------------------ Page No ---------------------------- */
+  .pageNoActive {
+    margin: 2px;
+    padding: 0px 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4e4e4e;
+    font-weight: 500;
+    border: 1px solid #313131;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+  }
+
+  .pageNoInactive {
+    margin: 2px;
+    padding: 0px 5px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+  }
+
+  .pageNoInactive:hover {
+    color: white;
+    background-color: #000000;
+  }
+}
