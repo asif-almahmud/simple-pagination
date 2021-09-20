@@ -42,7 +42,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrowDouble} ${left} ${
@@ -61,7 +61,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrow} ${left}`}
@@ -77,7 +77,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
               }}
               className={currentPage === 1 ? pageNoActive : pageNoInactive}
             >
@@ -94,7 +94,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 2 ? "0.5" : null,
+                opacity: currentPage === 2 ? "0.7" : null,
               }}
               className={currentPage === 2 ? pageNoActive : pageNoInactive}
             >
@@ -111,7 +111,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 3 ? "0.5" : null,
+                opacity: currentPage === 3 ? "0.7" : null,
               }}
               className={currentPage === 3 ? pageNoActive : pageNoInactive}
             >
@@ -128,7 +128,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 4 ? "0.5" : null,
+                opacity: currentPage === 4 ? "0.7" : null,
               }}
               className={currentPage === 4 ? pageNoActive : pageNoInactive}
             >
@@ -145,7 +145,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 5 ? "0.5" : null,
+                opacity: currentPage === 5 ? "0.7" : null,
               }}
               className={currentPage === 5 ? pageNoActive : pageNoInactive}
             >
@@ -162,7 +162,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 6 ? "0.5" : null,
+                opacity: currentPage === 6 ? "0.7" : null,
               }}
               className={currentPage === 6 ? pageNoActive : pageNoInactive}
             >
@@ -179,7 +179,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 7 ? "0.5" : null,
+                opacity: currentPage === 7 ? "0.7" : null,
               }}
               className={currentPage === 7 ? pageNoActive : pageNoInactive}
             >
@@ -196,7 +196,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 8 ? "0.5" : null,
+                opacity: currentPage === 8 ? "0.7" : null,
               }}
               className={currentPage === 8 ? pageNoActive : pageNoInactive}
             >
@@ -213,7 +213,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 9 ? "0.5" : null,
+                opacity: currentPage === 9 ? "0.7" : null,
               }}
               className={currentPage === 9 ? pageNoActive : pageNoInactive}
             >
@@ -230,7 +230,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 10 ? "0.5" : null,
+                opacity: currentPage === 10 ? "0.7" : null,
               }}
               className={currentPage === 10 ? pageNoActive : pageNoInactive}
             >
@@ -252,7 +252,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === Math.ceil(totalPages) ? "0.5" : null,
+                opacity: currentPage === Math.ceil(totalPages) ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrow} ${right}`}
@@ -271,7 +271,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === Math.ceil(totalPages) ? "0.5" : null,
+                opacity: currentPage === Math.ceil(totalPages) ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrowDouble} ${right}`}
@@ -295,7 +295,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrowDouble} ${left} ${
@@ -314,7 +314,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrow} ${left}`}
@@ -331,7 +331,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 1 ? "0.5" : null,
+                opacity: currentPage === 1 ? "0.7" : null,
               }}
               className={currentPage === 1 ? pageNoActive : pageNoInactive}
             >
@@ -348,7 +348,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 2 ? "0.5" : null,
+                opacity: currentPage === 2 ? "0.7" : null,
               }}
               className={currentPage === 2 ? pageNoActive : pageNoInactive}
             >
@@ -366,7 +366,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 3 ? "0.5" : null,
+                opacity: currentPage === 3 ? "0.7" : null,
               }}
               className={currentPage === 3 ? pageNoActive : pageNoInactive}
             >
@@ -383,7 +383,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 4 ? "0.5" : null,
+                opacity: currentPage === 4 ? "0.7" : null,
               }}
               className={currentPage === 4 ? pageNoActive : pageNoInactive}
             >
@@ -400,7 +400,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 5 ? "0.5" : null,
+                opacity: currentPage === 5 ? "0.7" : null,
               }}
               className={currentPage === 5 ? pageNoActive : pageNoInactive}
             >
@@ -417,7 +417,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === 6 ? "0.5" : null,
+                opacity: currentPage === 6 ? "0.7" : null,
               }}
               className={currentPage === 6 ? pageNoActive : pageNoInactive}
             >
@@ -445,7 +445,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === currentPage - 1 ? "0.5" : null,
+                opacity: currentPage === currentPage - 1 ? "0.7" : null,
               }}
               className={
                 currentPage === currentPage - 1 ? pageNoActive : pageNoInactive
@@ -466,7 +466,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === currentPage ? "0.5" : null,
+                opacity: currentPage === currentPage ? "0.7" : null,
               }}
               className={
                 currentPage === currentPage ? pageNoActive : pageNoInactive
@@ -485,7 +485,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === currentPage + 1 ? "0.5" : null,
+                opacity: currentPage === currentPage + 1 ? "0.7" : null,
               }}
               className={
                 currentPage === currentPage + 1 ? pageNoActive : pageNoInactive
@@ -515,7 +515,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages - 5 ? "0.5" : null,
+                opacity: currentPage === totalPages - 5 ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages - 5 ? pageNoActive : pageNoInactive
@@ -534,7 +534,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages - 4 ? "0.5" : null,
+                opacity: currentPage === totalPages - 4 ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages - 4 ? pageNoActive : pageNoInactive
@@ -553,7 +553,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages - 3 ? "0.5" : null,
+                opacity: currentPage === totalPages - 3 ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages - 3 ? pageNoActive : pageNoInactive
@@ -572,7 +572,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages - 2 ? "0.5" : null,
+                opacity: currentPage === totalPages - 2 ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages - 2 ? pageNoActive : pageNoInactive
@@ -591,7 +591,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages - 1 ? "0.5" : null,
+                opacity: currentPage === totalPages - 1 ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages - 1 ? pageNoActive : pageNoInactive
@@ -610,7 +610,7 @@ export default function Paginate(props) {
                 borderColor: props.borderColor,
                 backgroundColor: props.backgroundColor,
                 color: props.digitColor,
-                opacity: currentPage === totalPages ? "0.5" : null,
+                opacity: currentPage === totalPages ? "0.7" : null,
               }}
               className={
                 currentPage === totalPages ? pageNoActive : pageNoInactive
@@ -633,7 +633,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === totalPages ? "0.5" : null,
+                opacity: currentPage === totalPages ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrow} ${right}`}
@@ -650,7 +650,7 @@ export default function Paginate(props) {
           >
             <i
               style={{
-                opacity: currentPage === totalPages ? "0.5" : null,
+                opacity: currentPage === totalPages ? "0.7" : null,
                 borderColor: props.arrowColor,
               }}
               className={`${arrowDouble} ${right} ${
