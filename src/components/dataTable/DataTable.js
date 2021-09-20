@@ -59,9 +59,9 @@ const DataTable = () => {
         <Paginate
           totalPages={totalPages} // this property is required
           setCurrentPage={setCurrentPage} // this property is required
-          arrowColor={"black"} // optional property
-          borderColor={"black"} // optional property
-          backgroundColor={"black"} // optional property
+          arrowColor={"#1d4572"} // optional property
+          borderColor={"#1d4572"} // optional property
+          backgroundColor={"#1d4572"} // optional property
           digitColor={"white"} // optional property
         />
       )}
