@@ -17,7 +17,7 @@ export default function Table({
     tdRowContent.push({ name: tdProperties[i] });
 
   return (
-    <div style={{ margin: "1rem" }}>
+    <div style={{ margin: "1rem", width: "100%" }}>
       <table style={{ width: "100%" }}>
         <thead>
           <tr>

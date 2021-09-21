@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Table from "./Table";
 import data from "./MOCK_DATA.json";
-import Paginate from "../pagination/Paginate";
+import Paginate from "react-paginate-in-peace";
 
 const Data = data;
 const noOfRows = Data.length;
@@ -61,9 +61,10 @@ const DataTable = () => {
           totalPages={totalPages}
           setCurrentPage={setCurrentPage}
           arrowColor={"#21385b"}
-          borderColor={"#21385b"}
-          backgroundColor={"#21385b"}
-          digitColor={"white"}
+          buttonBorderColor={""}
+          activeBackgroundColor={"#21385b"}
+          activeDigitColor={"white"}
+          dotColor={"blue"}
         />
       )}
     </div>
