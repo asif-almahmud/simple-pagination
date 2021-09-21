@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/simple-pagination/static/js/main.b1ab5686.chunk.js",
-    "main.js.map": "/simple-pagination/static/js/main.b1ab5686.chunk.js.map",
+    "main.css": "/simple-pagination/static/css/main.a18ae868.chunk.css",
+    "main.js": "/simple-pagination/static/js/main.444758e6.chunk.js",
+    "main.js.map": "/simple-pagination/static/js/main.444758e6.chunk.js.map",
     "runtime-main.js": "/simple-pagination/static/js/runtime-main.e8629d07.js",
     "runtime-main.js.map": "/simple-pagination/static/js/runtime-main.e8629d07.js.map",
-    "static/js/2.d11f200f.chunk.js": "/simple-pagination/static/js/2.d11f200f.chunk.js",
-    "static/js/2.d11f200f.chunk.js.map": "/simple-pagination/static/js/2.d11f200f.chunk.js.map",
+    "static/js/2.6bbc7a18.chunk.js": "/simple-pagination/static/js/2.6bbc7a18.chunk.js",
+    "static/js/2.6bbc7a18.chunk.js.map": "/simple-pagination/static/js/2.6bbc7a18.chunk.js.map",
     "index.html": "/simple-pagination/index.html",
-    "static/js/2.d11f200f.chunk.js.LICENSE.txt": "/simple-pagination/static/js/2.d11f200f.chunk.js.LICENSE.txt"
+    "static/css/main.a18ae868.chunk.css.map": "/simple-pagination/static/css/main.a18ae868.chunk.css.map",
+    "static/js/2.6bbc7a18.chunk.js.LICENSE.txt": "/simple-pagination/static/js/2.6bbc7a18.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8629d07.js",
-    "static/js/2.d11f200f.chunk.js",
-    "static/js/main.b1ab5686.chunk.js"
+    "static/js/2.6bbc7a18.chunk.js",
+    "static/css/main.a18ae868.chunk.css",
+    "static/js/main.444758e6.chunk.js"
   ]
 }
