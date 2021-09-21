@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Table from "./Table";
 import data from "./MOCK_DATA.json";
-import Paginate from "react-paginate-in-peace";
+import Paginate from "../pagination/Paginate";
 
 const Data = data;
 const noOfRows = Data.length;
