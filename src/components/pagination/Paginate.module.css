@@ -36,13 +36,13 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
-/*  */
+
+/* Main Styles */
 .paginationContainer {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 40px; */
 }
 .firstPageActive,
 .lastPageActive {
@@ -63,10 +63,9 @@
 
 .firstPageInactive:hover,
 .lastPageInactive:hover {
-  color: var(--color-blue-violet);
   font-weight: 700;
 }
-/* ------------------------------ Page No ---------------------------- */
+
 .pageNoActive {
   margin: 4px;
   padding: 0px 6px;
@@ -93,4 +92,125 @@
 .pageNoInactive:hover {
   color: white;
   background-color: #000000;
+}
+
+/* ---------- For Small Devices ----------- */
+
+/* ---------------- max-width: 500px ------------------ */
+
+@media only screen and (max-width: 500px) {
+  .arrow {
+    display: none;
+  }
+
+  .firstPageActive,
+  .lastPageActive {
+    margin: 6px;
+  }
+  .firstPageInactive,
+  .lastPageInactive {
+    margin: 6px;
+  }
+}
+
+/* ---------------- max-width: 420px ------------------ */
+
+@media only screen and (max-width: 420px) {
+  .arrow {
+    display: none;
+  }
+
+  .arrowDouble {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+  }
+
+  .arrowDouble::after {
+    content: "";
+    border: solid;
+    border-color: inherit;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    position: absolute;
+    inset: 0px;
+    left: 3px;
+    top: 3px;
+  }
+
+  .firstPageActive,
+  .lastPageActive {
+    margin: 4px;
+  }
+  .firstPageInactive,
+  .lastPageInactive {
+    margin: 4px;
+  }
+
+  .pageNoActive {
+    margin: 2px;
+    padding: 0px 5px;
+    border: 0px;
+    font-size: 16px;
+  }
+
+  .pageNoInactive {
+    margin: 2px;
+    padding: 0px 5px;
+    border: 0px;
+    font-size: 16px;
+  }
+}
+
+/* ---------------- max-width: 324px ------------------ */
+
+@media only screen and (max-width: 324px) {
+  .arrow {
+    display: none;
+  }
+
+  .arrowDouble {
+    border: solid rgb(0, 0, 0);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+  }
+
+  .arrowDouble::after {
+    content: "";
+    border: solid;
+    border-color: inherit;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    position: absolute;
+    inset: 0px;
+    left: 3px;
+    top: 3px;
+  }
+
+  .firstPageActive,
+  .lastPageActive {
+    margin: 3px;
+  }
+  .firstPageInactive,
+  .lastPageInactive {
+    margin: 3px;
+  }
+
+  .pageNoActive {
+    margin: 1px;
+    padding: 0px 4px;
+    border: 0px;
+    font-size: 15px;
+  }
+
+  .pageNoInactive {
+    margin: 1px;
+    padding: 0px 4px;
+    border: 0px;
+    font-size: 15px;
+  }
 }
